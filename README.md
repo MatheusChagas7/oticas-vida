@@ -1,3 +1,5 @@
+<p>Você pode visualizar o projeto clicando aqui<a href="https://oticas-vida-tau.vercel.app/">aqui</a></p>
+
 Este é um projeto [Next.js](https://nextjs.org) inicializado com [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
 
 ## Começando
