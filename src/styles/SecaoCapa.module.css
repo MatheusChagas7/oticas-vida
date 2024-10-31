@@ -45,13 +45,21 @@
     .texto_capa{
         background-color: #0000007e;
         border-radius: 5px;
-        margin: 20px;
+        margin: 0 30px;
     }
 
 }
 
 /*Telas até 768px*/
 @media(max-width: 768px){
+    
+    .texto_capa h1{
+        font-size: 42px;
+    }
+
+    .texto_capa p {
+        font-size: 18px;
+    }
 
     .secao_capa{
         background-position: 80%;
