@@ -1,7 +1,7 @@
 {
   "name": "oticas-vida",
   "version": "0.1.0",
-  "homepage": "https://{MatheusChagas7}.github.io/{oticas-vida}",
+  "homepage": "https://MatheusChagas7.github.io/oticas-vida",
   "private": true,
   "scripts": {
     "dev": "next dev",
