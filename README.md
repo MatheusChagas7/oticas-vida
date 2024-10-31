@@ -1,8 +1,8 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+Este é um projeto [Next.js](https://nextjs.org) inicializado com [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
 
-## Getting Started
+## Começando
 
-First, run the development server:
+Primeiro, execute o servidor de desenvolvimento:
 
 ```bash
 npm run dev
@@ -14,27 +14,27 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abra [http://localhost:3000](http://localhost:3000) em seu navegador para ver o resultado.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Você pode começar a editar a página modificando `pages/index.js`. A página é atualizada automaticamente conforme você edita o arquivo.
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) podem ser acessadas em [http://localhost:3000/api/hello](http://localhost:3000/api/hello). Este endpoint pode ser editado em `pages/api/hello.js`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+O `pages/api` diretório é mapeado para `/api/*`. Os arquivos neste diretório são tratados como [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) em vez de páginas React.
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Este projeto usa [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) para otimizar e carregar automaticamente [Geist](https://vercel.com/font), uma nova família de fontes para Vercel.
 
-## Learn More
+## Saiba mais
 
-To learn more about Next.js, take a look at the following resources:
+Para saber mais sobre Next.js, dê uma olhada nos seguintes recursos:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+- [Next.js Documentation](https://nextjs.org/docs) - aprenda sobre os recursos e API do Next.js.
+- [Learn Next.js](https://nextjs.org/learn-pages-router) - um tutorial interativo de Next.js.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Você pode verificar o [the Next.js GitHub repository](https://github.com/vercel/next.js) - seus comentários e contribuições são bem-vindos!
 
-## Deploy on Vercel
+## Implantar no Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+A maneira mais fácil de implantar seu aplicativo Next.js é usar a [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) dos criadores do Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+Confira nossa documentação [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) para mais detalhes.
