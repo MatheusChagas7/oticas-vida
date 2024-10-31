@@ -33,12 +33,12 @@ export default function SecaoProdutos() {
                         <p>R$ 750,00</p>
                     </div>
                     <div className={estilos.card_oculos}>
-                        <h4>Óculos de grau</h4>
+                        <h4>Óculos de sol</h4>
                         <Image src={Sol} alt="Óculos de sol" className={estilos.imagem_oculos} />
                         <p>R$ 500,00</p>
                     </div>
                     <div className={estilos.card_oculos}>
-                        <h4>Óculos de grau</h4>
+                        <h4>Óculos infantil</h4>
                         <Image src={Infantil} alt="Óculos infantil" className={estilos.imagem_oculos} />
                         <p>R$ 500,00</p>
                     </div>
