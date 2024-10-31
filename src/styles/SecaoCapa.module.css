@@ -48,6 +48,16 @@
 
 }
 
+@media(max-width: 768px){
+    .texto_capa h1{
+        font-size: 38px;
+    }
+
+    .texto_capa p{
+        font-size: 16px;
+    }
+}
+
 
 /*Telas até 375px*/
 @media(max-width: 375px){

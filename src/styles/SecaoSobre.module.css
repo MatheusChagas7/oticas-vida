@@ -74,6 +74,10 @@
     .card_sobre_info p{
         font-size: 16px;
     }
+
+    .imagem_card_sobre, .card_sobre_info{
+        height: 200px;
+    }
 }
 
 
