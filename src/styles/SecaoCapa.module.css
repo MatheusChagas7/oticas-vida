@@ -21,6 +21,7 @@
     max-width: 500px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 20px;
 }
 
@@ -36,6 +37,7 @@
 
 /*Telas até 1024px*/
 @media(max-width: 1024px){
+
     .secao_capa{
         background-position: 90%;
     }
@@ -43,19 +45,18 @@
     .texto_capa{
         background-color: #0000007e;
         border-radius: 5px;
-        margin-left: 20px;
+        margin: 20px;
     }
 
 }
 
+/*Telas até 768px*/
 @media(max-width: 768px){
-    .texto_capa h1{
-        font-size: 38px;
+
+    .secao_capa{
+        background-position: 80%;
     }
 
-    .texto_capa p{
-        font-size: 16px;
-    }
 }
 
 
@@ -64,10 +65,6 @@
 
     .capa_container{
         width: 100%;
-    }
-
-    .texto_capa{
-        margin: 0 20px;
     }
     
 }
