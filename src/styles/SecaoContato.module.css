@@ -1,0 +1,88 @@
+.secao_contato{
+    width: 100%;
+    margin: 0 auto;
+    padding: 100px 20px;
+    background-color: #05031b;
+    color: #fff;
+}
+
+.contato_container{
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.subtitulo_contato{
+    font-size: 36px;
+}
+
+.grupo_cards_contato{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.card_contato{
+    width: 350px;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.card_contato h3{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.span_contato{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+.imagem_span{
+    width: 20px;
+    height: 20px;
+}
+
+/*Telas até 1024px*/
+@media(max-width: 1024px){
+    .contato_container p{
+        text-align: center;
+    }
+}
+
+
+/*Telas até 768px*/
+@media(max-width: 768px){
+
+    .grupo_cards_contato{
+        gap: 30px;
+    }
+
+    .card_contato{
+        width: 350px;
+        flex: 0 1 350px;
+    }
+}
+
+
+/*Telas até 375px*/
+@media(max-width: 375px){
+    .card_contato{
+        width: 300px;
+        flex: 0 1 300px;
+    }
+}

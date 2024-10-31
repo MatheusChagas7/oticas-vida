@@ -1,0 +1,84 @@
+.secao_produtos{
+    padding: 100px 20px;
+    background-color: #fff;
+}
+
+.produtos_container{
+    max-width: 1024px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.oculos_container{
+    margin: 20px 0;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card_oculos{
+    width: 400px;
+    flex: 1 1 400px;
+    padding: 20px 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+    background-color: #f6f6f6;
+    border-radius: 5px;
+    box-shadow: 2px 2px 20px -4px #929191;
+}
+
+.card_oculos p{
+    font-weight: bold;
+}
+
+.imagem_oculos{
+    width: 150px;
+    height: 80px;
+}
+
+.lista_beneficios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+
+/*Telas até 1024px*/
+/*Altera o width do card_oculos para que não quebre antes dos 768px*/
+@media(max-width: 1024px){
+    .card_oculos{
+        width: 350px;
+        flex: 1 1 350px
+    }
+}
+
+
+/*Telas até 768px*/
+@media(max-width: 768px){
+    .card_oculos{
+        flex: 1 1 400px
+    }
+}
+
+
+/*Telas até 375px*/
+@media(max-width: 375px){
+    
+    .lista_beneficios{
+        margin-left: 20px;
+    }
+}

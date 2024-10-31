@@ -1,0 +1,86 @@
+.sobre_container{
+    max-width: 1024px;
+    margin: 0 auto;
+  }
+
+.secao_sobre{
+    padding: 100px 20px;
+    text-align: center;
+    background-color: #f8f7ff;
+}
+
+.quem_somos_sobre{
+    margin-bottom: 60px;
+}
+
+.quem_somos_sobre p {
+    margin-top: 10px;
+    line-height: 30px;
+}
+
+.card_sobre{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.imagem_card_sobre, .card_sobre_info{
+    width: 50%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+    background-color: #fff;
+    border: 2px solid #cec6c6;
+}
+
+.card_sobre_info{
+    padding: 20px;
+}
+
+.card_sobre_info h4{
+    font-size: 48px;
+}
+
+.card_sobre_info p{
+    font-size: 24px;
+    color: #4a4a4a;
+}
+
+.imagem_sobre{
+    width: 100%;
+    height: 100%;
+}
+
+
+/*Telas até 1024px*/
+@media(max-width: 1024px){
+    .card_sobre_info h4{
+        font-size: 36px;
+    }
+}
+
+
+/*Telas até 768px*/
+@media(max-width: 768px){
+
+    .card_sobre_info h4{
+        font-size: 22px;
+    }
+
+    .card_sobre_info p{
+        font-size: 16px;
+    }
+}
+
+
+/*Telas até 375px*/
+@media(max-width: 375px){
+
+    .imagem_card_sobre, .card_sobre_info{
+        width: 100%;
+    }
+}

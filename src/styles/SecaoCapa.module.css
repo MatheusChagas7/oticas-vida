@@ -1,0 +1,63 @@
+.secao_capa{
+    background-image: url("../../public/capa.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    height: 90vh;
+}
+
+.capa_container{
+    height: 100%;
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+}
+
+.texto_capa{
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.texto_capa h1{
+    font-size: 56px;
+    color: #fff;
+}
+
+.texto_capa p{
+    font-size: 24px;
+    color: #c4c4c4;
+}
+
+/*Telas até 1024px*/
+@media(max-width: 1024px){
+    .secao_capa{
+        background-position: 90%;
+    }
+
+    .texto_capa{
+        background-color: #0000007e;
+        border-radius: 5px;
+        margin-left: 20px;
+    }
+
+}
+
+
+/*Telas até 375px*/
+@media(max-width: 375px){
+
+    .capa_container{
+        width: 100%;
+    }
+
+    .texto_capa{
+        margin: 0 20px;
+    }
+    
+}

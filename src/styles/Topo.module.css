@@ -1,0 +1,48 @@
+.topo_container{
+    max-width: 1024px;
+    padding: 20px;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    background-color: #fff;
+}
+
+.imagem_topo{
+    height: 50px;
+    width: auto;
+}
+
+.links_topo_container{
+    display: flex;
+    gap: 20px;
+}
+
+/* O <Link> utilizado no topo se refere a tag <a> portanto ao estilizar
+ a tag <a> estaremos estilizando a tag <Link>*/
+.links_topo_container a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+/*Telas até 768px*/
+@media(max-width: 768px){
+    .topo_container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imagem_topo{
+        margin-bottom: 10px;
+    }
+
+    .links_topo_container{
+        width: 100%;
+        padding-top: 10px;
+        justify-content: space-around;
+        border-top: 2px solid gray;
+    }
+}
